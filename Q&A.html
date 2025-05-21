@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q&A - My Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">My Awesome Site</div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Music.html">Music</a></li>
+                <li><a href="Youtube.html">YouTube</a></li>
+                <li><a href="SocialMedia.html">Social Media</a></li>
+                <li><a href="Q&A.html">Q&A</a></li>
+                <li><a href="contactme.html">Contact Me</a></li>
+            </ul>
+            <button id="darkModeToggle">Toggle Dark Mode</button>
+        </nav>
+    </header>
+
+    <main class="content-section">
+        <h1>Questions & Answers</h1>
+
+        <div class="qna-form-section">
+            <h2>Ask a Question</h2>
+            <textarea id="questionInput" placeholder="Type your question here..."></textarea>
+            <button id="submitQuestionBtn">Submit Question</button>
+        </div>
+
+        <div class="qna-list-section">
+            <h2>Recent Questions</h2>
+            <div id="qnaList">
+                <div class="qna-item">
+                    <p class="question">Q: How do I search for music?</p>
+                    <p class="answer">A: Go to the Music section and use the search bar. You'll get links to Spotify.</p>
+                    <button class="toggle-answer-btn">Show/Hide Answer</button>
+                </div>
+                <div class="qna-item">
+                    <p class="question">Q: Can I suggest new features?</p>
+                    <p class="answer">A: Absolutely! Please use the Contact Me section to send us your suggestions.</p>
+                    <button class="toggle-answer-btn">Show/Hide Answer</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 My Multi-Layer Website. All rights reserved.</p>
+    </footer>
+
+    <script src="main.js"></script>
+    <script src="qna.js"></script>
+</body>
+</html>
